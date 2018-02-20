@@ -1,83 +1,120 @@
-
 <!DOCTYPE html>
 <html>
-    <title>QuickJob</title>
-    <head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114126224-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+<title>QuickJob</title>
 
-          gtag('config', 'UA-114126224-1');
-        </script>
-    </head>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--     Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114126224-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-114126224-1');
+    </script>
+    <style>
+        body {
+            margin-top: 50px;
+            position: relative;
+        }
+
+        nav {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Quick Job</a>
+<!--
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+-->
+<!--
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#1-min">1 Min</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#5-min">5 min</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#10-min">10 min</a>
+            </li>
+          </ul>
+        </div>
+-->
+            </div>
+        </div>
+        
+    </nav>
     
-    <body>
-        <h1>QuickJob</h1>
-        <p>Job opportunities sorted by how long it takes to apply!</p>
-        <h2> &lt;1 Min</h2>
-        <ul>
-            <li><a target="_blank" href="https://careers.twitter.com/en/work-for-twitter/2018-university-application-full-time-internship.html">Twitter</a> </li>
-            <li><a target="_blank" href="https://sendgrid.com/careers/">Sendgrid</a> </li>
-            <li><a target="_blank" href="https://www.mulesoft.com/careers">Mulesoft</a> </li>
-            <li><a target="_blank" href="https://www.dropbox.com/jobs">Dropbox</a> </li>
-            <li><a target="_blank" href="https://gusto.com/about/careers">Gusto</a> </li>
-            <li><a target="_blank" href="https://www.mongodb.com/careers/">MongoDB</a> </li>
-            <li><a target="_blank" href="https://www.lyft.com/jobs">Lyft</a> </li>
-            <li><a target="_blank" href="https://squareup.com/careers/jobs">Square</a> </li>
-            <li><a target="_blank" href="https://www.getcruise.com/careers">Cruise</a> </li>
-            <li><a target="_blank" href="https://www.yelp.com/careers/job-openings">Yelp</a> </li>
-            <li><a target="_blank" href="https://www.quora.com/careers">Quora</a> </li>
-            <li><a target="_blank" href="https://www.thumbtack.com/jobs/">Thumbtack</a> </li>
-            <li><a target="_blank" href="https://www.thetradedesk.com/join-us/open-positions">The Trade Desk</a> </li>
-            <li><a target="_blank" href="https://asana.com/jobs">Asana</a> </li>
-            <li><a target="_blank" href="https://slack.com/careers">Slack</a> </li>
-            <li><a target="_blank" href="https://www.twitch.tv/p/jobs/">Twitch</a> </li>
-        </ul>
-        <h2> &lt;5 Min</h2>
-        <ul>
-            <li><a target="_blank" href="https://about.reddit.com/careers/">Reddit</a> </li>
-            <li><a target="_blank" href="http://www.akunacapital.com/careers">Akuna Capital</a> </li>
-            <li><a target="_blank" href="https://www.sequoiacap.com/campus">Sequoia Digital Campus</a> </li>
-            <li><a target="_blank" href="https://careers.google.com/">Google</a> </li>
-            <li><a target="_blank" href="https://www.amazon.jobs/">Amazon</a> </li>
-            <li><a target="_blank" href="https://www.palantir.com/careers/">Palantir</a> </li>
-            <li><a target="_blank" href="https://www.facebook.com/careers/">Facebook</a> </li>
-            <li><a target="_blank" href="https://www.bloomberg.com/careers/">Bloomberg</a> </li>
-            <li><a target="_blank" href="https://www.paypal.com/us/webapps/mpp/jobs">Paypal</a> </li>
-            <li><a target="_blank" href="https://www.janestreet.com/join-jane-street/apply/">Jane Street</a> </li>
-        </ul>
-        <h2> &lt;10 Min</h2>
-        <ul>
-            <li><a target="_blank" href="https://careers.microsoft.com/">Microsoft</a></li>
-            <li><a target="_blank" href="https://www.ca.com/us/company/careers.html">CA Technologies</a></li>
-            <li><a target="_blank" href="https://www.salesforce.com/company/careers/">Salesforce</a></li>
-            <li><a target="_blank" href="https://www.workday.com/en-us/company/careers.html">Workday</a></li>
-            <li><a target="_blank" href="http://www.belvederetrading.com/careers/">Belvedere</a></li>
-            <li><a target="_blank" href="https://www.uber.com/careers/">Uber</a></li>
-            <li><a target="_blank" href="https://github.com/about/careers">Github</a></li>
-            <li><a target="_blank" href="https://careers.blackrock.com/">Blackrock</a></li>
-            <li><a target="_blank" href="https://www.imc.com/eu/careers/">IMC</a></li>
-            <li><a target="_blank" href="https://www.optiver.com/eu/en/job-opportunities">Optiver</a></li>
-            <li><a target="_blank" href="http://careers.exxonmobil.com/">Exxon Mobil</a></li>
-        </ul>
-        </ul>
-        <h2> &lt;20 Min</h2>
-        <ul>
-            <li><a target="_blank" href="http://careers.dish.com/">Dish</a></li>
-            <li><a target="_blank" href="https://www.citadel.com/careers">Citadel</a></li>
-            <li><a target="_blank" href="https://usa.visa.com/careers.html">Visa</a></li>
-            <li><a target="_blank" href="http://www.trimble.com/Careers/">Trimble</a></li>
-            <li><a target="_blank" href="https://www.ea.com/careers">EA</a></li>
-            <li><a target="_blank" href="https://www.osisoft.com/about-osisoft/careers/">OSISoft</a></li>
-        </ul>
-        <h2> &gt;30 Min</h2>
-        <ul>
-            <li><a target="_blank" href="http://www.northropgrumman.com/Careers/">Northrop Grumman</a></li>
-            <li><a target="_blank" href="https://www2.deloitte.com/us/en/pages/careers/topics/careers.html">Deloitte</a></li>
-        </ul>
-    </body>
+    <div class="container">
+        <h2>Job opportunities sorted by how long it takes to apply!</h2>
+        <p>Sign up to get notified when new jobs are added! </p>
+        <table id="1-min" class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>&lt; 1 Min!</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+
+
+        <table id="5-min" class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>&lt; 5 Min!</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+
+        <table id="10-min" class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>&lt; 10 Min!</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+
+        <table id="11-min" class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>&gt; 10 Min!</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <!-- /.container -->
+
+    <div>
+
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
 </html>
