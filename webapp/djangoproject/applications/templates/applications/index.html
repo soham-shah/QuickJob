@@ -1,0 +1,9 @@
+{% if latest_application_list %}
+    <ul>
+    {% for application in latest_application_list %}
+        <li><a href="/applications/{{ application.id }}/">{{application.company_name}} - {{ application.job_title }} </a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No jobs are available.</p>
+{% endif %}
