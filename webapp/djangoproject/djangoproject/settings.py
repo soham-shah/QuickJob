@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+	'users.apps.UsersConfig',
     'applications.apps.ApplicationsConfig',
     'polls.apps.PollsConfig',
     'django.contrib.admin',
@@ -40,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+
+AUTH_USER_MODEL = 'users.CustomUser'  #new
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
